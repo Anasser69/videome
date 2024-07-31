@@ -15,7 +15,7 @@ const GlobalProvider = ({children})=>{
                 setisLoggedin(true)
                 setUser(res)
             }else{
-                setisLoggedin(flase)
+                setisLoggedin(false)
                 setUser(null)
             }
         })
